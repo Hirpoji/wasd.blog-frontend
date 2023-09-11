@@ -1,6 +1,4 @@
-import React, { FC, ReactNode, useState } from "react";
-import { Link } from "react-router-dom";
-import Button from "../UI/Button";
+import React, { FC,  useState } from "react";
 
 interface BurgerMenu {
   options: React.ReactNode[];

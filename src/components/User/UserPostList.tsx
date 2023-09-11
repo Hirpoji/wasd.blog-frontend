@@ -4,12 +4,6 @@ import Post from "../Post/Post";
 import { PostState, UserState } from "../../types";
 import axios from "../../axios";
 
-interface RootStateType {
-  posts: {
-    items: PostState[];
-    status: "loading" | "loaded" | "error";
-  };
-}
 
 const UserPostList: FC = () => {
   const { data, status } = useSelector((state: UserState) => state.auth);
